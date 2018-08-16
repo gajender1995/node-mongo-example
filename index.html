@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function a() {
+return "WEBVTT
+
+Introduction
+00:00:01.000 --> 00:01:10.000
+Wikipedia is a great adventure. It may have
+its shortcomings, but it is the largest collective
+knowledge construction endevour
+
+Disclaimer
+00:01:10.000 --> 00:02:10.000
+This is just a track demo using VTT";
+}
+
+</script>
+
+<video id="video" controls preload="metadata">
+    <source src='http://techslides.com/demos/sample-videos/small.webm' type='video/webm'> 
+  <source src='http://techslides.com/demos/sample-videos/small.ogv' type='video/ogg'> 
+  <source src='http://techslides.com/demos/sample-videos/small.mp4' type='video/mp4'>
+   <track label="English" kind="subtitles" srclang="en" src="a()" default>
+   <track label="Deutsch" kind="subtitles" srclang="de" src="ab.vtt">
+   <track label="Español" kind="subtitles" srclang="es" src="3798-233163_2.vtt">
+   
+</video>
+
+</body>
+</html>
